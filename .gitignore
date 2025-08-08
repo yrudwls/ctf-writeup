@@ -20,11 +20,11 @@ CLAUDE.md
 
 # Python
 __pycache__/
-*.py[cod]
+# *.py[cod]
 *$py.class
 *.so
 .Python
-build/
+# build/
 develop-eggs/
 dist/
 downloads/
@@ -52,24 +52,24 @@ ENV/
 *.bin
 *.exe
 *.dll
-*.so.*
+# *.so.*
 core
 core.*
 peda-session-*
 .gdb_history
-flag.txt
-flag
-solution
-sol
+# flag.txt
+# flag
+# solution
+# sol
 
 # Compiled binaries and objects
-*.o
-*.a
-*.out
-a.out
-exploit
-pwn
-chall
+# *.o
+# *.a
+# *.out
+# a.out
+# exploit
+# pwn
+# chall
 
 # Logs and temporary files
 *.log
