@@ -1,6 +1,10 @@
 # CTF Writeups
 
+[![English](https://img.shields.io/badge/README-English-blue)](README.md)
+[![한국어](https://img.shields.io/badge/README-한국어-red)](README_ko.md)
+
 A collection of Capture The Flag (CTF) challenge solutions and writeups.
+Primarily focusing on pwnable challenges.
 
 ## Repository Structure
 
@@ -11,7 +15,6 @@ ctf-writeup/
 │   │   ├── [Category]/
 │   │   │   ├── [Challenge Name]/
 │   │   │   │   ├── README.md          # Challenge writeup
-│   │   │   │   ├── solution.py        # Solution script
 │   │   │   │   ├── exploit.py         # Exploit code
 │   │   │   │   └── files/             # Challenge files
 │   │   │   └── ...
@@ -44,7 +47,7 @@ Each challenge writeup should include:
 ### Prerequisites
 - Python 3.x
 - pwntools (`pip install pwntools`)
-- GDB with peda/gef (for pwn challenges)
+- GDB with pwndbg (for pwn challenges)
 - Common CTF tools as needed
 
 ### Running Solutions
@@ -52,11 +55,8 @@ Each challenge writeup should include:
 # Navigate to challenge directory
 cd [Competition]/[Year]/[Category]/[Challenge]
 
-# Run solution script
-python3 solution.py
-
 # For interactive challenges
-python3 exploit.py REMOTE [host] [port]
+python3 exploit.py
 ```
 
 ## Contributing
