@@ -1,5 +1,7 @@
 # Chunky Threads - L3akCTF 2025
 
+*Read this in other languages: [한국어](README_kr.md)*
+
 **Category:** PWN  
 **Difficulty:** Medium  
 **Author:** dsp  
@@ -121,7 +123,6 @@ The attack consists of three stages executed across different threads:
 
 ### Stage 1: Libc Address Leak
 
-![CHONK Command Output](https://github.com/user-attachments/assets/197267d8-509a-4b60-b8cf-9259dc032f82)
 
 ```python
 # Stage 1: Leak libc base address
@@ -206,12 +207,11 @@ p.interactive()
 
 ## Exploitation Result
 
-![Exploit Success](https://github.com/user-attachments/assets/9d17851a-1009-4d14-9051-36eff5e30a60)
 
 The exploit successfully achieves:
-1. ✅ Libc base address leak for ASLR bypass
-2. ✅ Stack canary extraction via timing attack  
-3. ✅ Shell acquisition through one_gadget execution
+1. Libc base address leak for ASLR bypass
+2. Stack canary extraction via timing attack  
+3. Shell acquisition through one_gadget execution
 
 ## Key Takeaways
 
@@ -232,5 +232,3 @@ The exploit successfully achieves:
 - Use thread-local canary values to prevent cross-thread leakage
 - Add timeout protections to prevent extended exploitation windows
 - Enable PIE to make ROP chain construction more difficult
-
-**Flag:** `L3AK{[flag_content]}`

@@ -1,6 +1,8 @@
-# Chunky Threads #l3akCTF
+# Chunky Threads - L3akCTF 2025
 
-# Description
+*Read this in other languages: [English](README.md)*
+
+## Description
 
 ```
 Give the chonk a chunk and he just gets chonkier.
@@ -172,7 +174,6 @@ Stripped:   No
 
 `CHONK` → 이스터 에그 메세지 출력 ?
 
-![image.png](<img width="485" height="72" alt="Image" src="https://github.com/user-attachments/assets/197267d8-509a-4b60-b8cf-9259dc032f82" />)
 
 ## 취약점 분석
 
@@ -277,6 +278,3 @@ p.send(payload)
 
 p.interactive()
 ```
-
-![image.png](<img width="331" height="431" alt="Image" src="https://github.com/user-attachments/assets/9d17851a-1009-4d14-9051-36eff5e30a60" />
-)
